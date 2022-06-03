@@ -9,8 +9,7 @@ import Alert from "./components/Alert";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -28,7 +27,7 @@ function App() {
 
   const [mode, setMode] = useState("light");
   const removeBodyClases=()=>{
-// document.body.classList.remove("bg-primary")
+document.body.classList.remove("bg-primary")
 document.body.classList.remove("bg-success")
 document.body.classList.remove("bg-danger")
 document.body.classList.remove("bg-warning")
